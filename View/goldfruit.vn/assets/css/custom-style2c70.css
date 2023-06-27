@@ -1,0 +1,26 @@
+.combo-discount.actived {
+    color: var(--primary);
+    font-weight: bold;
+}
+.aiz-plus-minus {
+    min-width: 100px !important;
+}
+
+.flash-sale-card-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    /* opacity: 50%; */
+    color: var(--primary);
+    padding: 6px 20px;
+    font-size: 22px;
+}
+img.banner {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+/*your custom css goes here*/
+
+.empty-actual
