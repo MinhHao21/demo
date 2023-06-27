@@ -1,0 +1,169 @@
+<div class="modal-dialog in_modal_show">
+    <div class="modal-content">
+        <div class="modal-header bg-success"> 
+            <div class="pb12 btn_close">
+                <div class="block-img-close" data-toggle="tooltip" data-dismiss="modal" data-placement="bottom" title="Đóng" data-original-title="Đóng"></div>
+            </div> 
+			<h4 class="modal-title">Đăng ký thành viên</h4>
+		</div>
+		<div class="modal-body">
+            <div class="block-form-login">
+                <div class="block-form-registered">
+                    <div class="block-content">
+                        <form action="#" method="post" id="form_register">
+                            <div class="messages1"></div>
+                            <p class="input-block col-lg-12">
+                                <label for="user_name">Tên đăng nhập<span class="required" data-toggle="tooltip" data-placement="right" title="Bắt buộc nhập">(*):</span></label>
+                                <input type="text" class="validate[required] form-control valid" name="user_name" id="user_name" value="" />
+                            </p>
+                            <div>
+                                <p class="input-block col-lg-6">
+                                    <label for="first_name">Họ<span class="required" data-toggle="tooltip" data-placement="right" title="Bắt buộc nhập">(*):</span></label>
+                                    <input type="text" class="validate[required] form-control valid" name="first_name" id="first_name" value="" />
+                                </p>
+                                <p class="input-block col-lg-6">
+                                    <label for="first_name">Tên<span class="required" data-toggle="tooltip" data-placement="right" title="Bắt buộc nhập">(*):</span></label>
+                                    <input type="text" class="validate[required] form-control valid" name="last_name" id="last_name" value="" />
+                                </p>
+                            </div>
+                            <div style="clear: both;"></div>
+                            <p class="input-block col-lg-12">
+                                <label for="password">Mật khẩu<span class="required" data-toggle="tooltip" data-placement="right" title="Bắt buộc nhập">(*):</span></label>
+                                <input type="password" class="validate[required,minSize[6],maxSize[30]] form-control valid" name="password" id="password" value="" />
+                            </p>
+                            <p class="input-block col-lg-12">
+                                <label for="repassword">Nhập lại mật khẩu<span class="required" data-toggle="tooltip" data-placement="right" title="Bắt buộc nhập">(*):</span></label>
+                                <input type="password" class="validate[required,minSize[6],maxSize[30],equals[password] form-control valid" name="repassword" id="repassword" value="" />
+                            </p>
+                            <p class="input-block col-lg-12">
+                                <label for="email">Email<span class="required" data-toggle="tooltip" data-placement="right" title="Bắt buộc nhập">(*):</span></label>
+                                <input type="email" class="validate[required,custom[email]] form-control valid" name="email" id="email" value="" />
+                            </p>
+                            
+                            <p class="input-block col-lg-12">
+                               <label for="captch">Mã bảo vệ<span class="required" data-toggle="tooltip" data-placement="right" title="Bắt buộc nhập">(*):</span></label>
+                                <input type="text" placeholder="Mã bảo vệ" maxlength="6" value="" name="fcode" class="fcode form-control display-inline-block" data-pattern="/^(.)6,6$/" />
+                            </p>
+                            <div class="clear pd_10"></div>
+                            <p class="input-block col-lg-12">
+                                <img width="130" height="30" title="show_captcha" alt="show_captcha" src="captcha/get_captcha.jpg" class="captchaImg display-inline-block">
+                                <span onclick="change_captcha('.fcode');" title="Đổi mã bảo vệ" class="fa fa-pointer fa-refresh margin-left margin-right" data-toggle="tooltip" data-placement="right" ></span>
+                            </p>
+                            <div class="clear pd_10"></div>
+                            <hr>
+                            <div class="submit-re">
+                                <p >
+                                    <button type="submit" class="btn btn-green pull-right" >Đăng ký thành viên <span id="span-reload-reg"></span></button>
+                                    <div class="clear"></div>
+                                </p>
+                            </div>
+                        </form>
+                        <div class="modal-footer">
+                             <a href="login-2.html" data-toggle="ajaxModal"><i class="fa fa-user"></i> Đăng nhập</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+    $('.loadder-register').hide();
+    function show_alert1(alert_style,messages1){
+        var alertBox = '<div class="alert '+alert_style+' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messages1 + '</div>';
+        $('#form_register').find('.messages1').html(alertBox);
+    }
+    $('#form_register').on('submit', function (event) {
+        event.preventDefault();
+        //$('.loadder-register').show();
+        $('.messages1').html();
+        $('#span-reload-reg').append('<i class="fa fa-spinner fa-spin fa-1x fa-fw"></i>');
+          var data = new FormData(this);
+          $.ajax({
+            type    : 'POST', 
+            url     : base_url + 'users/ajax_register',
+            data: data,
+            dataType  : 'json',
+            cache: false,
+            processData: false,
+            contentType: false, 
+            success   : function(data) {
+                $('#span-reload-reg').html(''); 
+                $('.loadder-register').hide();
+                if (!data.success) { 
+                    if (data.errors.name == 1) {
+                        show_alert1('alert-danger',data.error_alert);
+                        // $('#user_name').forcus();
+                        return false;
+                    }else if (data.errors.name == 2){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 3){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 4){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 5){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 6){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 7){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 8){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 9){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 10){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 11){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 12){
+                        show_alert1('alert-danger',data.error_alert);
+                        return false;
+                    }
+                    else if (data.errors.name == 13){
+                          show_alert1('alert-danger',data.error_alert);
+                          return false;
+                    }
+                    else if (data.errors.name == 14){
+                          show_alert1('alert-danger',data.error_alert);
+                          return false;
+                    }
+                    else if (data.errors.name == 15){
+                          show_alert1('alert-danger',data.error_alert);
+                          return false;
+                    }
+                    else if (data.errors.name == 16){
+                          show_alert1('alert-danger',data.error_alert);
+                          return false;
+                    }
+                }else {
+                    show_alert1('alert-success',data.success_alert);
+                    //location.reload();
+                    window.location.href = base_url + 'users/login';
+                }
+            }
+          });
+           event.preventDefault();
+    });
+
+</script>
+

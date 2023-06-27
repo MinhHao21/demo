@@ -1,0 +1,36 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 18 Jun 2023 09:39:35 at http://qnafarm.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://qnafarm.com/ -O1 "D:\View\QNA\QNA" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:39:36	Warning: 	Note: due to qnafarm.com remote robots.txt rules, links beginning with these path will be forbidden: /assets/ (see in the options to disable this)
+09:49:48	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photos/thumbs/2021_12/1bb9912517dbdc8585ca-211207023503-1.jpg (from qnafarm.com/)
+09:55:12	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/tinh-bot-khang-tu-chuoi-xanh-san-pham-moi-la-ma-bo-ich-95.html (from qnafarm.com/)
+09:55:15	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/themes/web/images/icons/11-1.png (from qnafarm.com/)
+09:55:25	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): qnafarm.com/themes/web/fonts/index.html
+10:03:16	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photograph_img/thumbs/2021_12/dcec7f67fa9931c76888-211208100142-1.jpg (from qnafarm.com/hinh-anh.html)
+10:03:17	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photos/thumbs/2022_02/tinh-bot-nghe-do-500g-220217100809-1.jpg (from qnafarm.com/tinh-bot-nghe-vang-hu-500g-160.html)
+10:03:20	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photos/thumbs/2022_11/nghe-trang-dep-221121034638-1.jpg (from qnafarm.com/bot-nghe-trang-say-lanh-nguyen-chat-1kg-170.html)
+10:05:58	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/news/images/chuoi-xanh-qna-farm.jpg (from qnafarm.com/tinh-bot-khang-tu-chuoi-xanh-bot-chuoi-xanh-va-tinh-bot-chuoi-xanh-96.html)
+10:08:43	Error: 	"Bad Request" (400) at link qnafarm.com/^([^:/? (from https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js)
+10:08:43	Error: 	"Bad Request" (400) at link qnafarm.com/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js)
+10:08:52	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photos/thumbs/2022_02/tinh-bot-nghe-trang-220217095850-1.jpg (from qnafarm.com/tinh-bot-nghe-trang-500g-158.html)
+10:08:56	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photos/images/2022_06/mit-say-300g-qna-220607092637.jpg (from qnafarm.com/mit-say-gion-tui-300g-163.html)
+10:09:21	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photos/thumbs/2022_06/mit-cay-qna-220607092634-1.png (from qnafarm.com/mit-say-gion-tui-300g-163.html)
+10:10:51	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/news/_thumbs/Images/botgung.jpg (from qnafarm.com/tin-tuc?per_page=2)
+10:11:11	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/thanh-phan-hoa-hoc-trong-tinh-dau-gung-86.html (from qnafarm.com/tin-tuc?per_page=2)
+10:11:13	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/cach-su-dung-bot-gung-say-lanh-85.html (from qnafarm.com/tin-tuc?per_page=2)
+10:11:17	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/tin-tuc (from qnafarm.com/tin-tuc?per_page=2)
+10:12:40	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/tri-cam-sot-bang-cu-gung-tuoi-82.html (from qnafarm.com/tin-tuc?per_page=3)
+10:13:11	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/tinh-dau-gung-co-tac-dung-gi-doi-voi-suc-khoe-80.html (from qnafarm.com/tin-tuc?per_page=3)
+10:13:14	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/ngac-nhien-truoc-cong-dung-cua-gung-ngam-mat-ong-79.html (from qnafarm.com/tin-tuc?per_page=3)
+10:13:16	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photograph_img/thumbs/2021_12/dcec7f67fa9931c76888-211208100142-1.jpg (from qnafarm.com/hinh-anh.html)
+10:13:17	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photos/thumbs/2022_11/nghe-trang-dep-221121034638-1.jpg (from qnafarm.com/bot-nghe-trang-say-lanh-nguyen-chat-1kg-170.html)
+10:14:58	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/photos/thumbs/2021_12/9d8f9ffb126ad934807b-211210012527-1.jpg (from qnafarm.com/tinh-dau-gung-149.html)
+10:14:58	Warning: 	Retry after error -4 (No data (connection closed)) at link qnafarm.com/uploads/news/images/tinh-dau-gung-nguyen-chat-gia-re-quan-binh-thanh-1502705875-1-3580795-1502705875.jpg (from qnafarm.com/tinh-dau-gung-co-tac-dung-gi-doi-voi-suc-khoe-80.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 35 minutes 25 seconds : 482 links scanned, 458 files written (59695725 bytes overall) [53435382 bytes received at 25146 bytes/sec], 8268262 bytes transferred using HTTP compression in 115 files, ratio 22%, 3.1 requests per connection
+(2 errors, 23 warnings, 0 messages)

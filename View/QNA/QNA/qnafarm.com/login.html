@@ -1,0 +1,94 @@
+<div class="modal-dialog in_modal_show">
+	<div class="modal-content">
+		<div class="modal-header bg-success"> 
+			<div class="pb12 btn_close">
+                <div class="block-img-close" data-toggle="tooltip" data-dismiss="modal" data-placement="bottom" title="" data-original-title="Đóng"></div>
+            </div> 
+			<h4 class="modal-title">Đăng nhập</h4>
+		</div>
+		<div class="modal-body">
+
+            <div class="block-form-login">
+                <!-- block Registered-->
+                <div class="block-form-registered">
+                    <div class="block-content">
+                        <form action="http://qnafarm.com/login" id="form_login_ajax_modal" class="form_validator1" method="POST">
+                            <div class="messages"></div>
+                            <div class="form-group">
+                                <input type="text" name="user_name" class="validate[required] form-control" placeholder="Tên đăng nhập">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" class="validate[required] form-control" placeholder="Mật khẩu">
+                            </div>
+                            <p>
+                                <button type="submit" class="btn btn-green pull-right">Đăng nhập<span id="span-reload-modal"></span></button>
+                                <div class="clear"></div>
+                            </p>
+                        </form>
+                        <div class="link_new_register">
+                           
+                        </div>
+                        <div class="modal-footer">
+                             <a href="register.html" data-toggle="ajaxModal"><i class="fa fa-male"></i> Đăng ký thành viên</a> |
+                            <a href="forget_password.html" data-toggle="ajaxModal"><i class="fa fa-key"></i> Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                </div><!-- block Registered-->
+            </div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+    function show_alert2(alert_style,messages){
+        var alertBox = '<div class="alert '+alert_style+' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messages + '</div>';
+        $('#form_login_ajax_modal').find('.messages').html(alertBox);
+    }
+
+    $('#form_login_ajax_modal').on('submit', function (event) {
+        event.preventDefault();
+        // var valid = $("#form_login_ajax_modal").validationEngine('validate');
+        // if (valid == true) {
+        $('#form_login_ajax_modal').find('.messages').html();
+        $('#span-reload-modal').append('<i class="fa fa-spinner fa-spin fa-1x fa-fw"></i>');
+        //return false;
+        var data = new FormData(this);
+        $.ajax({
+            type    : 'POST', 
+            url     : base_url + 'login',
+            data: data,
+            dataType  : 'json',
+            cache: false,
+            processData: false,
+            contentType: false, 
+            success   : function(data) {
+               $('#span-reload-modal').html(''); 
+                if (!data.success) { 
+                    if (data.errors.name == 1) {
+                        show_alert2('alert-danger',data.error_alert);
+                        return false;
+                    }else if (data.errors.name == 2){
+                        show_alert2('alert-danger',data.error_alert);
+                        return false;
+                    }else if(data.errors.name == 3){
+                        show_alert2('alert-danger',data.error_alert);
+                        return false;
+                    }else if(data.errors.name == 4){
+                        show_alert2('alert-danger',data.error_alert);
+                        return false;
+                    }
+                }else {
+                    window.location.reload();
+                }
+            }
+        });
+        event.preventDefault();
+        // }else {
+        //     $("#form_login_ajax_modal").validationEngine();
+        // }
+        
+    });
+
+
+</script>

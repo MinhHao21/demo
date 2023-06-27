@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+matonghoabonmua.com	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+matonghoabonmua.com	TRUE	/	FALSE	1999999999	wp_woocommerce_session_3255616a76c1e0271ff34a51a446d908	bce218a13b291f9ceec32f2866f1bee6%7C%7C1687194564%7C%7C1687190964%7C%7C6e12ff86efda2a9ec8e104ff88cda082
+matonghoabonmua.com	TRUE	/	FALSE	1999999999	yith_woocompare_list	%5B439%2C355%2C354%2C378%2C371%2C255%2C447%2C380%2C365%2C363%2C357%2C379%2C370%2C360%2C364%2C361%2C367%2C451%2C368%2C366%2C373%2C372%2C356%2C351%2C359%2C353%2C352%5D
+matonghoabonmua.com	TRUE	/	FALSE	1999999999	yith_wcwl_session_3255616a76c1e0271ff34a51a446d908	%7B%22session_id%22%3A%224a1f07015ebd04e8ab29e64e12093df9%22%2C%22session_expiration%22%3A1689613759%2C%22session_expiring%22%3A1689610159%2C%22cookie_hash%22%3A%225c5cad3250bf4ed1a0f2cd2a19b9a6ad%22%7D
+matonghoabonmua.com	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	6ce950baf68ce90586b336f8f75cabc7
+

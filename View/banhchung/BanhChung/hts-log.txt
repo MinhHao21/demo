@@ -1,0 +1,85 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 18 Jun 2023 09:42:56 at https://banhchungdogia.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://banhchungdogia.com/ -O1 "D:\View\banhchung\BanhChung" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:43:23	Error: 	"Method Not Allowed" (405) at link https://banhchungdogia.com/xmlrpc.php (from https://banhchungdogia.com/)
+09:44:17	Error: 	"Not Found" (404) at link https://banhchungdogia.com/?page_id=424 (from https://banhchungdogia.com/)
+09:44:36	Warning: 	Moved Permanently for https://banhchungdogia.com/banh-chung-tet-canh-ty-2020/
+09:44:36	Warning: 	File has moved from https://banhchungdogia.com/banh-chung-tet-canh-ty-2020/ to https://banhchungdogia.com/banh-chung-tet-tan-suu-2021/
+09:44:58	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=10
+09:44:58	Warning: 	File has moved from https://banhchungdogia.com/?p=10 to https://banhchungdogia.com/gioi-thieu/
+09:44:59	Error: 	"Not Found" (404) at link https://banhchungdogia.com/gio-hang/ (from https://banhchungdogia.com/san-pham)
+09:45:08	Warning: 	Retry after error -4 (No data (connection closed)) at link https://banhchungdogia.com/wp-content/uploads/2020/01/dat-banh-chung-tet-banh-chung-ngon-do-thi-18-300x300.jpg (from https://banhchungdogia.com/san-pham)
+09:45:36	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=638
+09:45:36	Warning: 	File has moved from https://banhchungdogia.com/?p=638 to https://banhchungdogia.com/khach-dat-hang-banh-chung-do-gia/
+09:45:37	Warning: 	Moved Permanently for https://banhchungdogia.com/author/admin/
+09:45:37	Warning: 	File has moved from https://banhchungdogia.com/author/admin/ to https://banhchungdogia.com
+09:45:37	Error: 	"Not Found" (404) at link https://banhchungdogia.com/wp-content/uploads/2020/01/z1706662094575_55751e2fc640fb6eed14775e6313dd93-568x1024.jpg (from https://banhchungdogia.com/khach-dat-hang-banh-chung-do-gia/)
+09:45:39	Warning: 	Retry after error -4 (No data (connection closed)) at link https://banhchungdogia.com/tag/phan-hoi-banh-chung-do-gia/ (from https://banhchungdogia.com/khach-dat-hang-banh-chung-do-gia/)
+09:45:52	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=682
+09:45:52	Warning: 	File has moved from https://banhchungdogia.com/?p=682 to https://banhchungdogia.com/nhip-cau-nhan-ai/
+09:45:52	Error: 	"Not Found" (404) at link https://banhchungdogia.com/wp-content/uploads/2020/01/Nhan-Ai-banhchungDoGia-9.jpg (from https://banhchungdogia.com/nhip-cau-nhan-ai/)
+09:45:52	Error: 	"Not Found" (404) at link https://banhchungdogia.com/wp-content/uploads/2020/01/Nhan-Ai-banhchungDoGia-11.jpg (from https://banhchungdogia.com/nhip-cau-nhan-ai/)
+09:45:52	Error: 	"Not Found" (404) at link https://banhchungdogia.com/wp-content/uploads/2020/01/z1758682313980_417f4774fa653a6f01ab4c71146cb39e.jpg (from https://banhchungdogia.com/nhip-cau-nhan-ai/)
+09:45:52	Error: 	"Not Found" (404) at link https://banhchungdogia.com/wp-content/uploads/2020/01/Nhan-Ai-banhchungDoGia-6.jpg (from https://banhchungdogia.com/nhip-cau-nhan-ai/)
+09:45:52	Error: 	"Not Found" (404) at link https://banhchungdogia.com/wp-content/uploads/2020/01/Nhan-Ai-banhchungDoGia-8.jpg (from https://banhchungdogia.com/nhip-cau-nhan-ai/)
+09:45:52	Error: 	"Not Found" (404) at link https://banhchungdogia.com/wp-content/uploads/2020/01/Nhan-Ai-banhchungDoGia-7.jpg (from https://banhchungdogia.com/nhip-cau-nhan-ai/)
+09:45:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://banhchungdogia.com/tag/nhip-cau-nhan-ai/ (from https://banhchungdogia.com/nhip-cau-nhan-ai/)
+09:45:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://banhchungdogia.com/wp-json/wp/v2/categories/50 (from https://banhchungdogia.com/category/chinh-sach/)
+09:45:54	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=898
+09:45:54	Warning: 	File has moved from https://banhchungdogia.com/?p=898 to https://banhchungdogia.com/chinh-sach-bao-mat-thong-tin/
+09:45:55	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=895
+09:45:55	Warning: 	File has moved from https://banhchungdogia.com/?p=895 to https://banhchungdogia.com/chinh-sach-doi-tra-hang/
+09:45:55	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=6
+09:45:55	Warning: 	File has moved from https://banhchungdogia.com/?p=6 to https://banhchungdogia.com/lien-he/
+09:45:55	Error: 	"Not Found" (404) at link https://banhchungdogia.com/banh-chung-ngon-ha-noi/feed/ (from https://banhchungdogia.com/banh-chung-ngon-ha-noi/)
+09:45:56	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=1000
+09:45:56	Warning: 	File has moved from https://banhchungdogia.com/?p=1000 to https://banhchungdogia.com/banh-chung-ngon-ha-noi/
+09:46:10	Warning: 	Moved Permanently for https://banhchungdogia.com/banh-chung-tet-tan-suu-2021/
+09:46:10	Warning: 	File has moved from https://banhchungdogia.com/banh-chung-tet-tan-suu-2021/ to https://banhchungdogia.com/banh-chung-tet/
+09:46:10	Error: 	"Not Found" (404) at link https://banhchungdogia.com/banh-chung-ngot-truyen-thong/feed/ (from https://banhchungdogia.com/banh-chung-ngot-truyen-thong/)
+09:46:10	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=716
+09:46:10	Warning: 	File has moved from https://banhchungdogia.com/?p=716 to https://banhchungdogia.com/banh-chung-ngot-truyen-thong/
+09:46:14	Warning: 	Moved Permanently for https://banhchungdogia.com/banh-chung-tet-2023/
+09:46:14	Warning: 	File has moved from https://banhchungdogia.com/banh-chung-tet-2023/ to https://banhchungdogia.com/banh-chung-tet-2024/
+09:46:14	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=50
+09:46:14	Warning: 	File has moved from https://banhchungdogia.com/?p=50 to https://banhchungdogia.com/dat-banh-chung/
+09:46:15	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://banhchungdogia.com/banh-chung-ngon-ha-noi/?swcfpc=1)
+09:46:15	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=426
+09:46:15	Warning: 	File has moved from https://banhchungdogia.com/?p=426 to https://banhchungdogia.com/tai-khoan/
+09:46:15	Error: 	"Not Found" (404) at link https://banhchungdogia.com/banh-chung-chay-do-gia/feed/ (from https://banhchungdogia.com/banh-chung-chay-do-gia/)
+09:46:15	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=617
+09:46:15	Warning: 	File has moved from https://banhchungdogia.com/?p=617 to https://banhchungdogia.com/banh-chung-chay-do-gia/
+09:46:16	Warning: 	Retry after error -4 (No data (connection closed)) at link https://banhchungdogia.com/tu-khoa/banh-chung-chay-ngot/ (from https://banhchungdogia.com/banh-chung-chay-do-gia/)
+09:46:17	Error: 	"Not Found" (404) at link https://banhchungdogia.com/banh-chung-dac-biet/feed/ (from https://banhchungdogia.com/banh-chung-dac-biet/)
+09:46:17	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=757
+09:46:17	Warning: 	File has moved from https://banhchungdogia.com/?p=757 to https://banhchungdogia.com/banh-chung-dac-biet/
+09:46:20	Error: 	"Not Found" (404) at link https://banhchungdogia.com/banh-chung-ngon-ha-noi-2-2/feed/ (from https://banhchungdogia.com/banh-chung-ngon-ha-noi-2-2/)
+09:46:20	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=705
+09:46:20	Warning: 	File has moved from https://banhchungdogia.com/?p=705 to https://banhchungdogia.com/banh-chung-ngon-ha-noi-2-2/
+09:46:20	Error: 	"Not Found" (404) at link https://banhchungdogia.com/banh-chung-tet-2024/feed/ (from https://banhchungdogia.com/banh-chung-tet-2024/)
+09:46:20	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=524
+09:46:20	Warning: 	File has moved from https://banhchungdogia.com/?p=524 to https://banhchungdogia.com/banh-chung-tet-2024/
+09:46:22	Error: 	"Not Found" (404) at link https://banhchungdogia.com/gio-tet-2023-loai-ngon-chuan-vi-ha-noi/feed/ (from https://banhchungdogia.com/gio-tet-2023-loai-ngon-chuan-vi-ha-noi/)
+09:46:22	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=971
+09:46:22	Warning: 	File has moved from https://banhchungdogia.com/?p=971 to https://banhchungdogia.com/gio-tet-2023-loai-ngon-chuan-vi-ha-noi/
+09:46:25	Error: 	"Not Found" (404) at link https://banhchungdogia.com/hop-qua-tet/feed/ (from https://banhchungdogia.com/hop-qua-tet/)
+09:46:25	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=934
+09:46:25	Warning: 	File has moved from https://banhchungdogia.com/?p=934 to https://banhchungdogia.com/hop-qua-tet/
+09:46:29	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=548
+09:46:29	Warning: 	File has moved from https://banhchungdogia.com/?p=548 to https://banhchungdogia.com/banh-chung-nep-nuong-la-rieng-dac-san-tay-bac-dac-san-dien-bien/
+09:46:29	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link https://banhchungngon.top/wp-content/uploads/2020/01/banh-chung-nep-nuong-la-rieng-dac-san-dien-bien-banhchungdogia-com.jpg (from https://banhchungdogia.com/banh-chung-nep-nuong-la-rieng-dac-san-tay-bac-dac-san-dien-bien/)
+09:46:33	Warning: 	Moved Permanently for https://banhchungdogia.com/?p=686
+09:46:33	Warning: 	File has moved from https://banhchungdogia.com/?p=686 to https://banhchungdogia.com/hinh-anh-banh-chung-do-gia/
+09:46:37	Warning: 	Retry after error -4 (No data (connection closed)) at link https://banhchungdogia.com/wp-json/wp/v2/product_cat/55 (from https://banhchungdogia.com/san-pham/gio-tet-ngon/)
+09:46:37	Warning: 	Moved Permanently for https://banhchungdogia.com/banh-chung-tet/
+09:46:37	Warning: 	File has moved from https://banhchungdogia.com/banh-chung-tet/ to https://banhchungdogia.com/banh-chung-tet-2022/
+09:46:39	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://banhchungngon.top/wp-content/uploads/2020/01/banh-chung-nep-nuong-la-rieng-dac-san-dien-bien-banhchungdogia-com.jpg (from https://banhchungdogia.com/banh-chung-nep-nuong-la-rieng-dac-san-tay-bac-dac-san-dien-bien/)
+09:46:39	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://banhchungngon.top/wp-content/uploads/2020/01/banh-chung-nep-nuong-la-rieng-dac-san-dien-bien-banhchungdogia-com.jpg (from https://banhchungdogia.com/banh-chung-nep-nuong-la-rieng-dac-san-tay-bac-dac-san-dien-bien/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 43 seconds : 589 links scanned, 537 files written (54102940 bytes overall) [46894534 bytes received at 210289 bytes/sec], 11123712 bytes transferred using HTTP compression in 210 files, ratio 22%, 25.5 requests per connection
+(20 errors, 54 warnings, 0 messages)
